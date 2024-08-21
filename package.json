@@ -1,0 +1,31 @@
+{
+  "name": "await-promise",
+  "version": "1.0.0",
+  "description": "Async React component for awaiting a promise.",
+  "main": "dist/index.js",
+  "repository": "git@github.com:initdsg/await-promise.git",
+  "author": "tky-thomas <thomaskeanyewtan@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@tsconfig/node18": "^18.2.4",
+    "@types/node": "^22.4.2",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-runtime": "^7.24.7",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.4",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
