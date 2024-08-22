@@ -4,7 +4,7 @@ import { Suspense } from "react";
 export interface AwaitPromiseProps<T> {
     fn: Promise<T>;
     fallback: React.ReactNode;
-    errorFallback?: React.ReactNode;
+    errorFallback?: (err: unknown) => React.ReactNode;
     children: (result: T) => React.ReactNode;
 }
 
@@ -33,6 +33,6 @@ async function AwaitPromiseInternal<T>({
             return <>err.message</>;
         }
 
-        return <>errorFallback</>;
+        return <>{errorFallback(e)}</>;
     }
 }
