@@ -1,3 +1,3 @@
 import AwaitPromise, { AwaitPromiseProps } from "./AwaitPromise";
 
-export { AwaitPromise, AwaitPromiseProps };
+export { AwaitPromise, type AwaitPromiseProps };
