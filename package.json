@@ -1,5 +1,5 @@
 {
-  "name": "await-promise",
+  "name": "@initd.sg/await-promise",
   "version": "0.0.1",
   "description": "Async React component for awaiting a promise.",
   "main": "./dist/index.js",
