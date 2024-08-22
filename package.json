@@ -1,6 +1,6 @@
 {
   "name": "await-promise",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Async React component for awaiting a promise.",
   "main": "dist/index.js",
   "repository": "git@github.com:initdsg/await-promise.git",
